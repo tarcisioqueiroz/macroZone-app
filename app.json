@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "23f9501e-8b64-4c48-bb70-38653a5f485d"
+      }
+    },
+    "owner": "tarcisioqueirozs-team"
   }
 }

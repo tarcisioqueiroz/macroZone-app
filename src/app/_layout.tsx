@@ -7,6 +7,7 @@ export default function RootLayout() {
       screenOptions={{
         headerStyle: { backgroundColor: colors.header },
         headerTintColor: '#fff',
+        headerShown: false,
       }}
     >
       <Stack.Screen name='index' options={{ headerShown: false }} />

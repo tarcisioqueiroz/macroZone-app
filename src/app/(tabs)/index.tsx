@@ -28,7 +28,7 @@ export default function HomeScreen() {
     <ScrollView style={globalStyles.container}>
       <Text style={globalStyles.title}>MacroZone</Text>
       <HomeHeader />
-      <MacroGrid />
+      <MacroGrid meals={meals}/>
       <RecentMeals meals={meals} />
     </ScrollView>
   );

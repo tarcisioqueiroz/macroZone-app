@@ -3,12 +3,12 @@ import { Alert, StyleSheet, Text, TouchableOpacity } from "react-native";
 import { deleteMeal } from "@/storage/meals";
 
 type MealItemProps = {
-    id: string,
-    name: string,
-    calories: number,
-    protein: number,
-    carbs: number,
-    fat: number,
+    id: string;
+    name: string;
+    calories: number;
+    protein: number;
+    carbs: number;
+    fat: number;
     onDelete: () => void;
 };
 
